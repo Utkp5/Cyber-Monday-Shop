@@ -1,0 +1,30 @@
+.container
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  padding: 5px 0px;
+}
+li {
+  display: inline;
+}
+
+li a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+#ul1
+{
+  margin-right: 20px;
+}
+.logo
+{
+  color: aliceblue;
+  padding: 14px 16px;
+}
+
+li a:focus {
+  background-color: red;
+}
