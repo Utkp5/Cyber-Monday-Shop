@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="container">
-    <div className="logo">Utkarsh Shop</div>
+    <div className="logo">Ulook Shop</div>
       <ul id="ul1">
         <li><a class="active" href="home">Home</a></li>
         <li><a href="About">About</a></li>
