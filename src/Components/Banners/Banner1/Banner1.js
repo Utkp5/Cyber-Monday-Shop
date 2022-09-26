@@ -4,7 +4,7 @@ import "./Banner1.css";
 function Banner1() {
   return (
     <div className="banner1">
-        <div className="bner_1">
+        <div id="bner_1">
         <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/4886/cyber-monday2.gif" alt="" id="bner1_img"/>
         <p className="bner1_p1">Get up to</p>
         <p className="bner1_p2">30% off*</p>

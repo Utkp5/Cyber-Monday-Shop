@@ -1,0 +1,23 @@
+.banner2_div
+{
+    background-color: #121212;
+    height: 140px;
+    
+}
+.banner2_flex
+{
+    display: flex;
+    align-items: center;
+}
+.banner2_img
+{
+    width: 80px;
+}
+.banner2_a
+{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: aliceblue;
+    align-items: center;
+}
