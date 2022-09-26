@@ -1,0 +1,20 @@
+.banner3_div
+{
+ background-color: #1c1c1c;
+ height: 500px;
+}
+.banner3_flex
+{
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.circle
+{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
