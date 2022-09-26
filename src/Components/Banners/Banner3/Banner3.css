@@ -18,3 +18,13 @@
     width: 400px;
     border-radius: 50%;
 }
+.circle_content
+{
+    border: 2px solid yellow;
+    position: absolute;
+    left: 450px;
+}
+.crc_cnt_img
+{
+    width: 220px;
+}
