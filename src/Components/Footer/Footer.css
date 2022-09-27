@@ -1,0 +1,29 @@
+.footr
+{
+    height: 300px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+.footr_div1
+{
+    width: 290px;
+}
+.footr_title
+{
+    font-size: xx-large;
+    font-weight: 600;
+}
+input[type="text"]{
+    height: 40px;
+    width: 230px;
+}
+.footr_btn
+{
+    padding: 8px 30px;
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: #f00699;
+}

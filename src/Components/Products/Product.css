@@ -1,5 +1,5 @@
 .prdct_container {
-  height: 2490px;
+  height: 2440px;
   background-color: azure;
   margin: 0px 80px;
   border-top-left-radius: 100px;
@@ -15,7 +15,7 @@
 }
 .prdct_h2 {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: xx-large;
   margin: 0;
 }
@@ -132,7 +132,7 @@ font-size: larger;
     position: relative;
     top: 94px;
     display: flex;
-    width: 1260px;
+    width: 1130px;
 }
 .exp_btn
 {
