@@ -46,7 +46,23 @@ function Product() {
     <div className='prdct_container'>
       <h2 id='prdct_h2'>MORE PRODUCTS</h2>
       <div className='prdct_main'>
-      
+      {
+        Products.map((prdcts) => {
+            return (
+                <div className='prdct_box'>
+                    <img src={prdcts.productsImg} alt="" className='prdct_img'/>
+                        <div className='prdct_sub_box'>
+                            <p className='prdct_p1'>{prdcts.productsInfo}</p>
+                            <p className='prdct_p2'>{prdcts.productsPrice} <strike className='prdct_strike'>{prdcts.priceStrike}</strike></p>
+                            <button className='prdct_btn'>BUY NOW</button>
+                         </div>
+                </div>
+            )
+        })
+      }
+      <div id='prdct_main_btn'>
+      <button className='prdct_main_btn'>SEE ALL PRODUCTS</button>
+      </div>
       </div>
     </div>
   )
