@@ -6,7 +6,6 @@
 .banner3_flex
 {
     display: flex;
-    border: 2px solid red;
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -20,11 +19,53 @@
 }
 .circle_content
 {
-    border: 2px solid yellow;
     position: absolute;
     left: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 .crc_cnt_img
 {
     width: 220px;
+}
+.crc_cnt_flex
+{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.circle_p1
+{
+    font-size: 25px;
+    margin: 17px;
+    font-weight: 600;
+}
+.circle_p2
+{
+    font-size: 45px;
+    margin: 8px;
+    font-weight: 700;
+}
+.crc_p1
+{
+    color: #02e1b5;
+}
+.crc_strike
+{
+    margin: 10px;
+    font-size: large;
+}
+.circle_btn
+{
+    padding: 14px 40px;
+    font-size: larger;
+    background-color: #f00699;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    
 }
